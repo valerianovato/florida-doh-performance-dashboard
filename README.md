@@ -1,52 +1,70 @@
-Sarasota Foundational Plans Dashboard
-
+Sarasota Foundational Plans Dashboard  
 Florida Department of Health – Sarasota County
 
-This repository contains a Power BI dashboard developed to support the Sarasota County Foundational Plans monitoring process.
+This repository contains a Power BI dashboard developed to support the Sarasota County Foundational Plans monitoring process.  
 The dashboard integrates data from:
 
-CHIP – Community Health Improvement Plan
+CHIP – Community Health Improvement Plan**  
+Strategic Plan**  
+PMQI – Performance Management & Quality Improvement**  
+WFD – Workforce Development**
 
-Strategic Plan
+## Dashboard Overview
 
-PMQI – Performance Management & Quality Improvement Plan
+![Overview](images/Overview.png)
 
-WFD – Workforce Development Plan
+## KPI Cards
 
-🔧 Technologies Used
+![KPI Cards](images/KPI_Cards.png)
 
-Power BI Desktop
+## Bar Chart
 
-Power Query (M)
+![Bar Chart](images/bar_chart.png)
 
-DAX
+## Line Chart
 
-SharePoint Integration
+![Line Chart](images/Line_Chart.png)
 
-Data Modeling (Star Schema)
+## Filters & Slicers – Community Health
 
-📊 Dashboard Features
+![Slicers Community Health](images/Slicers-filters_Community%20Health.png)
 
-Unified data model combining four foundational datasets
+## Filters & Slicers – Administration
 
-KPI cards for plan performance
+![Slicers Administration](images/Slicers-filters_Administration.png)
 
-Dynamic filtering by plan, county, date, status
+## Data Model (Model View)
 
-Automated refresh using SharePoint Files connector
+![Model View](images/Model_view.png)
 
-Clean and interactive visualization layout
+---
 
-📁 Files in This Repository
+## 🛠️ Technologies Used
 
-FoundPlans.pbix – Power BI dashboard file
+- Power BI Desktop  
+- Power Query (M)  
+- DAX  
+- SharePoint Integration  
+- Data Modeling (Star Schema)
 
-/images – Screenshots of the dashboard
+---
 
-/PowerQuery – M code for data transformations
+## 📁 Files in This Repository
 
-/DAX – All DAX measures used in the dashboard
+- `Found Plans.pbix` – Power BI dashboard file  
+- `/images` – Dashboard screenshots  
+- `README.md` – Documentation  
 
-📑 Notes
+---
 
-The dataset used in this public version does not contain sensitive or confidential information, in compliance with organizational data governance policies.
+## 🔗 Public Dashboard Link
+
+**Power BI Service (public org share):**  
+👉 [Dashboard Link](https://app.powerbigov.us/view?r=eyJrIjoiZWU3NGUwYzEtYmViNy00ZTZlLWI0NWUtODE3YjhhNjBmYzFlIiwidCI6IjI4Y2Q4ZjgwLTNjNDQtNGIyNy04MWEwLWNkMmIwM2EzMWI4ZCJ9)
+
+---
+
+## 📝 Notes
+
+This public version does not contain any confidential data and complies with organizational data governance.
+
